@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Registration</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Register</h1>
+
+    <form id="registration-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" placeholder="Enter username" />
+      <span class="error" id="username-error"></span>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter email" />
+      <span class="error" id="email-error"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password" />
+      <span class="error" id="password-error"></span>
+
+      <button type="button" id="register-btn">Register</button>
+    </form>
+
+    <p id="success-message" class="success"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
